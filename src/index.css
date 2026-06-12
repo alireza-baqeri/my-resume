@@ -1,2 +1,20 @@
 @import "tailwindcss";
 @import "./styles/custom_styles.css";
+
+
+@theme {
+    --color-white: #FFFFFF;      /* سفید خالص (همون پیش‌فرض خودش) */
+    --color-brand-orange: #E95529;
+    --color-brand-yellow: #E9CA31;
+    --color-brand-cyan: #0FB9CF;
+    --color-brand-purple: #45118F;
+
+}
+
+@layer base {
+    body {
+        @apply bg-brand-purple text-white;
+        margin: 0;
+        min-height: 100vh;
+    }
+}

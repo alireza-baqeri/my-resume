@@ -5,7 +5,7 @@ function Projects({ title, description }) {
                 {title}
             </h3>
 
-            <p className="mt-2 text-gray-600">
+            <p className="mt-2 text-brand-orange">
                 {description}
             </p>
         </div>
