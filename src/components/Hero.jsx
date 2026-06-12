@@ -1,6 +1,6 @@
 function Hero() {
     return (<>
-
+            hero
     </>);
 }
 

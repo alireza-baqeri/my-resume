@@ -1,6 +1,6 @@
 function Skills() {
     return (<>
-
+            skills
     </>);
 }
 

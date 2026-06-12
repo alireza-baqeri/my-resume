@@ -1,7 +1,7 @@
 function Experience() {
     return (<>
             <p>
-                i have a long experince in
+              experince
             </p>
     </>);
 }
