@@ -7,11 +7,12 @@ function Navbar() {
                 <div className={"logo"}>
                     <span className={"border rounded shadow-xl shadow-brand-yellow/75"}>LOGO</span>
                 </div>
-                <ul className="desktop-menu flex-1 flex justify-center items-center gap-1">
-                    <li className="flex-1 text-center border rounded-sm p-2">About</li>
-                    <li className="flex-1 text-center border rounded-sm p-2">Skills</li>
-                    <li className="flex-1 text-center border rounded-sm p-2">Projects</li>
-                    <li className="flex-1 text-center border rounded-sm p-2">Contact</li>
+
+                <ul className="desktop-menu grid grid-cols-4 gap-4 mt-3 ">
+                    <li className="border rounded-sm p-2 text-center">About</li>
+                    <li className="border rounded-sm p-2 text-center">Skills</li>
+                    <li className="border rounded-sm p-2 text-center">Projects</li>
+                    <li className="border rounded-sm p-2 text-center">Contact</li>
                 </ul>
 
                 <div className={"actions"}>
