@@ -22,7 +22,7 @@ export default function Navbar() {
     return (
         <Disclosure
             as="nav"
-            className="relative bg-gray-800/50 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
+            className="relative bg-brand-drakyellow after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px  rounded-b-xl "
         >
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
@@ -42,7 +42,7 @@ export default function Navbar() {
                             <img
                                 alt="Alireza Bagheri Logo - Personal Website"
                                 src="src/assets/AB-Logo.png"
-                                className="h-9 w-auto"
+                                className="h-9 w-auto rounded-xl border-amber-50 border-3  "
                             />
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
@@ -63,9 +63,10 @@ export default function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                    <div className="absolute gap-2 inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
-
+                        <a href=""><img className={"w-auto h-8"} src="src/assets/github.svg" alt="github"/></a>
+                        <a href=""><img className={"w-auto h-8"} src="src/assets/linkedin.svg" alt="linkedin"/></a>
 
                     </div>
                 </div>

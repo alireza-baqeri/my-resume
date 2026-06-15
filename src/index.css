@@ -6,14 +6,16 @@
     --color-white: #FFFFFF;      /* سفید خالص (همون پیش‌فرض خودش) */
     --color-brand-orange: #E95529;
     --color-brand-yellow: #E9CA31;
+    --color-brand-drakyellow: #826a12;
     --color-brand-cyan: #0FB9CF;
     --color-brand-purple: #45118F;
+    --color-brand-dark: #130c40;
 
 }
 
 @layer base {
     body {
-        @apply bg-brand-purple text-white;
+        @apply bg-brand-dark text-white;
         margin: 0;
         min-height: 100vh;
     }
