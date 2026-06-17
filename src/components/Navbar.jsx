@@ -22,9 +22,9 @@ export default function Navbar() {
     return (
         <Disclosure
             as="nav"
-            className="relative bg-brand-drakyellow after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px  rounded-b-xl "
+            className="relative after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px   "
         >
-            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl rounded-b-md bg-brand-drakyellow px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button*/}
